@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78025be32115b7844b3f71f971762e66, type: 3}
+  m_Name: EntityType_Rival
+  m_EditorClassIdentifier: 
+  m_description: 
+  m_isUnique: 0
+  m_displayName:
+    m_text: Rival
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_pluralDisplayName:
+    m_text: Rivals
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_image: {fileID: 21300000, guid: be100137fb20d6e4eb9e3f166ca38b40, type: 3}
+  m_level: 1
+  m_faction: {fileID: 11400000, guid: 14d5c934c26e40542baf8ba6ba1e4611, type: 2}
+  m_parents: []
+  m_urgencyFunctions:
+  - {fileID: 11400000, guid: 7d48f80ea03fadc49b3b475346e67aaf, type: 2}
+  m_actions:
+  - {fileID: 11400000, guid: e9aad43bc48beaa4dbccc7e14047f79d, type: 2}
+  m_maxCountInAction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 10
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 20
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_driveValues: []
+  m_rewardMultipliers:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
